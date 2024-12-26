@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Hellgrauer Hintergrund für Kontrast */
+    color: #333; /* Dunkelgraue Schriftfarbe */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    border: 2px solid black; /* Schwarzer Rahmen */
+    border-top: none; /* Obere Linie entfernen */
+    position: relative; /* Für das Positionieren des Textes */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px; /* Maximale Breite */
+}
+
+.container label {
+    font-size: 1.2rem;
+    position: absolute; /* Positionierung über dem Rahmen */
+    top: -10px; /* Leicht oberhalb des Rahmens */
+    background-color: #f8f8f8; /* Gleiche Hintergrundfarbe wie der body */
+    padding: 0 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Zentrieren */
+}
+
+.inner-container {
+    border: 1px solid black; /* Kleineren Rahmen für das Inputfeld */
+    padding: 10px;
+    margin-top: 30px; /* Abstand für den Text */
+}
+
+input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
